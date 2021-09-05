@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    background-image: url("../Fotos/FondoWeb.jpg");
+    background-size: cover;
+}
+
+h3 {
+    font-size: 60px;
+    color: #115571;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.caja {
+    background-color: #31afb4;
+    border-color: #115571;
+    border-width: 10px;
+    border-style: solid;
+    padding: 10px 10px 10px;
+    width: 500px;
+    height: 450px;
+    border-radius: 5%;
+}
+
+#button {
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    background-color: #31afb4;
+    border-style: solid;
+    border-color: #115571;
+    border-width: 5px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    font-size: 23px;
+}
+
+#authorized, #empty, #emptyP {
+    color: red;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.row {
+    margin-bottom: 10px !important;
+}

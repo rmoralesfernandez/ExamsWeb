@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kulture</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Registro.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-4">
+                <img src="../Fotos/Logo4.png" class="logo">
+                <div class="container">
+                    <form role="form">
+                        <div class="caja">
+                            <div>
+                                <h3 id="Login">Registro</h3>
+                            </div>
+                            <div class="form-group">
+                                <label for="nombre">Ingrese su nombre:</label> <br>
+                                <input type="text" class="form-control" id="email"> <br>
+                            </div>
+                            <div class="form-group">
+                                <label id="empty" style="display: none">Este campo no pude estar vacio</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="clave">Ingrese su clave:</label> <br>
+                                <input type="password" class="form-control" id="password"> <br>
+                            </div>
+                            <div class="form-group">
+                                <label id="emptyP" style="display: none">Este campo no pude estar vacio</label>
+                            </div>
+                            <div class="form-group">
+                                <label id="authorized" style="display: none">Correo o contraseña incorrectas. Reintentalo o restablece la contraseña</label>
+                            </div>
+                            <button type="button" id="button">Entrar</button>
+                            <p>¿Ya estas registrado?<a href="../Index.html">Inicia sesion</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-3">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./WebApp.js" type="application/javascript"></script>
+</html>
